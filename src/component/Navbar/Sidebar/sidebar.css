@@ -1,0 +1,43 @@
+.sidenav {
+    border-right: 2px solid rgb(205, 205, 205);
+    height: 100%;
+    width: 20vw;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    left: 0;
+    padding-top: 20px;
+}
+
+li{
+    list-style: none;
+    margin: 1rem;
+}
+
+.sidenav h2 {
+    margin: 2rem;
+}
+
+.sidenav a{
+    padding: 6px 1px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+}
+.sidenav a:hover,
+.dropdown-btn:hover {
+    color: #000000;
+    border-right: 4px solid  #329C89;
+}
+
+.log{
+margin-top: 4rem;
+}

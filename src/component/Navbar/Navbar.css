@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.first {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search {
+    display: flex;
+    gap: 5px;
+    color: rgb(208, 208, 208);
+}
+
+.search input[type="text"] {
+    border: none;
+}
+
+.login_info h5 {
+
+    width: 124px;
+    height: 17px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 101.1%;
+    letter-spacing: 0.05em;
+    color: #3A3A3A;
+}
+
+.Second_nav {
+    margin-top: 5rem;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Second_nav h2 {
+    width: 105px;
+    height: 24px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 101.1%;
+    letter-spacing: 0.05em;
+    color: #212121;
+}
+.filter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.filter p {
+    width: 45px;
+    height: 17px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 101.1%;
+    letter-spacing: 0.05em;
+    color: #3A3A3A;
+}
